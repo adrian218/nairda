@@ -101,7 +101,7 @@ $(function() {
 
   // Adds the visual chat typing message
   const addChatTyping = (data) => {
-    data.typing = false;
+    data.typing = true;
     data.message = 'Pisze';
     addChatMessage(data);
   }
