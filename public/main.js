@@ -255,14 +255,7 @@ $(function() {
   });
 
   // Whenever the server emits 'typing', show the typing message
-  socket.on('typing', (data) => {
-    addChatTyping(data);
-  });
-
-  // Whenever the server emits 'stop typing', kill the typing message
-  socket.on('stop typing', (data) => {
-    removeChatTyping(data);
-  });
+ 
 
   socket.on('disconnect', () => {
     log('you have been disconnected');
