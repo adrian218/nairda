@@ -94,9 +94,9 @@ ul {
 
 /* Font */
 
-.messages {
-  font-size: 150%;
-}
+
+.messages { background-color: #ffffff; border-top-width: 1px; border-top-style: solid; border-top-color: #363636; border-left-width: 1px; border-left-style: solid; border-left-color: #363636; }
+
 
 .inputMessage {
   font-size: 100%;
